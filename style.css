@@ -1,0 +1,69 @@
+body {
+    background-color:rgb(171,224,224);
+     margin: 0;
+ }
+ 
+ .actividad {
+     font-family: 'Times New Roman', Times, serif;
+     color: rgb(2, 2, 2);
+     text-align: center;
+     margin: 20px;
+ }
+ 
+ .form {
+     display: flex;
+     flex-direction: column;
+     padding: 30px;
+     margin: 50px auto;
+     background-color: azure;
+     box-shadow: 8px 10px 10px black;
+     border-radius: 10px;
+     max-width: 600px; /* Añadido para limitar el ancho del formulario en pantallas grandes */
+ }
+ 
+ #boton {
+     background-color: rgb(28, 156, 195);
+     color: white;
+     border-radius: 10px;
+     border: 3px solid white;
+     margin-left: 270px;
+     margin-right: 200px;
+     cursor: pointer;
+ }
+ 
+ .Peso{
+     margin-left:200px ;
+     margin-right: 140px;
+ 
+ }
+ .Altura{
+     margin-left:190px;
+     margin-right: 140px;
+ 
+ }  
+ 
+    @media only screen and (max-width: 600px) {
+    .form {
+    margin: 20px;
+    }
+    
+    #boton {
+    margin: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    }
+    
+    .Peso {
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    }  
+
+    
+    .Altura {
+    margin: 10px;
+    margin-left: 40px;
+    margin-right: 50px;
+    }
+ 
+}
